@@ -21,4 +21,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/order',[OrderController::class,'index']);
+
+Route::get('/order',function(){
+    if(Auth::check()){
+        Route::get('/order',[OrderController::class,'index']);
+
+
+    }
+    else{
+      return   redirect('login');
+    }
+});
