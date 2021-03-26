@@ -19,7 +19,8 @@
         }
 
         body {
-            margin: 0
+            margin: 0;
+            background-color: black;
         }
 
         a {

@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                   <a href="order">Go to show order</a>
                 </div>
             </div>
         </div>
