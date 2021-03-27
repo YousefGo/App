@@ -10,3 +10,7 @@ laravel +mysql for backend
 
 
 arduino to make serckuit
+
+
+here is smalutor
+https://www.tinkercad.com/login?next=%2Fthings%2FjkTr2uccdYn-mighty-duup%2Feditel%3Fsharecode%3DjQ0HPVNRbVodsMKsnxsdT8palyNKuR7xGTX3gc9KVM4
